@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <title>FC Barcelona Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">FC Barcelona Survey Form</h1>
+    <p id="description">Blaugrana Since de Limits</p>
+
+    <form id="survey-form">
+        <label for="name" id="name-label">
+      Name
+      <input type="text" id="name" required placeholder="Enter your name">
+    </label>
+        <label for="email" id="email-label">
+      Email
+      <input type="email" id="email" required placeholder="Enter your email">
+    </label>
+        <label for="number" id="number-label">
+      Blaugrana (Years)
+      <input type="number" id="number" placeholder="How long you've been a Çules?" min="1" max="100">
+    </label>
+        <label for="dropdown" id="dropdown-label">
+      How do you know about FC Barcelona?
+      <select id="dropdown">
+        <option value="">-- Choose One --</option>
+        <option value="television">Television</option>
+        <option value="family">Family</option>
+        <option value="friend">Friend</option>
+        <option value="magazine">Magazine</option>
+        <option value="newspaper">Newspaper</option>
+      </select>
+    </label>
+        <label for="competition" id="competition-label">
+      What competition you watch FCB first time?
+    </label>
+        <input type="radio" id="competition" name="competition" value="UEFA Champions League"> UEFA Champions League <br>
+        <input type="radio" id="competition" name="competition" value="Fifa Club World Cup"> Fifa Club World Cup <br>
+        <input type="radio" id="competition" name="competition" value="La Liga"> La Liga <br>
+        <input type="radio" id="competition" name="competition" value="Copa del Rey"> Copa del Rey <br>
+        <input type="radio" id="competition" name="competition" value="Joan Gamper Cup"> Joan Gamper Cup <br>
+        <br>
+        <label for="players" id="players- label">
+      Which your favorite players?
+    </label>
+        <input type="checkbox" id="players" name="players" value="Marc-André-ter-Stegen-(GK)"> Marc-André ter Stegen (GK)
+        <br>
+        <input type="checkbox" id="players" name="players" value="Neto-(GK)"> Neto (GK) <br>
+        <input type="checkbox" id="players" name="players" value="Sergiño-Dest-(DF)"> Sergiño Dest (DF) <br>
+        <input type="checkbox" id="players" name="players" value="Gerard-Piqué-(DF)"> Gerard Piqué (DF) <br>
+        <input type="checkbox" id="players" name="players" value="Ronald-Araujo-(DF)"> Ronald Araujo (DF) <br>
+        <input type="checkbox" id="players" name="players" value="Clément-Lenglet-(DF)"> Clément Lenglet (DF) <br>
+        <input type="checkbox" id="players" name="players" value="Jordi-Alba-(DF)"> Jordi Alba (DF) <br>
+        <input type="checkbox" id="players" name="players" value="Sergi-Roberto-(DF)"> Sergi Roberto (DF) <br>
+        <input type="checkbox" id="players" name="players" value="Samuel-Umtiti-(DF)"> Samuel Umtiti (DF) <br>
+        <input type="checkbox" id="players" name="players" value="Junior-Firpo-(DF)"> Junior Firpo (DF) <br>
+        <input type="checkbox" id="players" name="players" value="Sergio-Busquets-(MF)"> Sergio Busquets (MF) <br>
+        <input type="checkbox" id="players" name="players" value="Miralem-Pjanic-(MF)"> Miralem Pjanic (MF) <br>
+        <input type="checkbox" id="players" name="players" value="Ricard-Puig-(MF)"> Ricard Puig (MF) <br>
+        <input type="checkbox" id="players" name="players" value="Philippe-Coutinho-(MF)"> Philippe Coutinho (MF) <br>
+        <input type="checkbox" id="players" name="players" value="Pedri-(MF)"> Pedri (MF) <br>
+        <input type="checkbox" id="players" name="players" value="Matheus-Fernandes-(MF)"> Matheus Fernandes (MF) <br>
+        <input type="checkbox" id="players" name="players" value="Frenkie-de-Jong-(MF)"> Frenkie de Jong (MF) <br>
+        <input type="checkbox" id="players" name="players" value="Antoine-Griezmann-(FW)"> Antoine Griezmann (FW) <br>
+        <input type="checkbox" id="players" name="players" value="Martin-Braithwaite-(FW)"> Martin Braithwaite (FW) <br>
+        <input type="checkbox" id="players" name="players" value="Lionel-Messi-(FW)-C"> Lionel Messi (FW) C <br>
+        <input type="checkbox" id="players" name="players" value="Ousmane-Dembélé-(FW)"> Ousmane Dembélé (FW) <br>
+        <input type="checkbox" id="players" name="players" value="Trincão-(FW)"> Trincão (FW) <br>
+        <input type="checkbox" id="players" name="players" value="Anssumane-Fati-(FW)"> Anssumane Fati (FW) <br>
+        <br>
+        <label for="comments" id="comments-label">
+      What your suggestion to FCB?
+      <textarea type="email" id="comments" rows="3"></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </label>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
